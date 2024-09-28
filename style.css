@@ -1,0 +1,143 @@
+
+    /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        line-height: 1.6;
+    }
+    
+    h1, h2, h3.{
+        color: #333;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background: #333;
+        color: white;
+        padding: 10px 0;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+    
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    header nav h1 {
+        margin: 0;
+    }
+    
+    header nav ul {
+        display: flex;
+    }
+    
+    header nav ul li {
+        margin-left: 20px;
+    }
+    
+    header nav ul li a {
+        color: white;
+        padding: 5px 10px;
+        transition: background 0.3s;
+    }
+    
+    header nav ul li a:hover {
+        background: white;
+        color: #333;
+    }
+    
+    /* Hero Section */
+    .hero {
+        background: url(one.jfif) no-repeat center center/cover;
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+    }
+    
+    .hero h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    
+    .hero p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+    
+    .hero .btn {
+        background: #ff9900;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+    
+    .hero .btn:hover {
+        background: #cc7a00;
+    }
+    
+    /* Features Section */
+    .features {
+        text-align: center;
+        padding: 50px 20px;
+        background: #f4f4f4;
+    }
+    
+    .features h2 {
+        margin-bottom: 20px;
+    }
+    
+    .feature-item {
+        display: inline-block;
+        width: 30%;
+        margin: 0 1%;
+        padding: 20px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* About Section */
+    .about {
+        text-align: center;
+        padding: 50px 20px;
+    }
+    
+    .about h2 {
+        margin-bottom: 20px;
+    }
+    
+    /* Footer Section */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #333;
+        color: white;
+    }
+    
+    footer a {
+        color: #ff9900;
+        transition: color 0.3s;
+    }
+    
+    footer a:hover {
+        color: #cc7a00;
+    }
+    
